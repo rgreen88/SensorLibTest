@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SensorLibTest</string>
+    <string name="Sense_move">Movement Detected!</string>
 </resources>
