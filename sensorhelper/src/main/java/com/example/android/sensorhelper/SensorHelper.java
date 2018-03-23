@@ -23,6 +23,7 @@ public class SensorHelper implements SensorEventListener {
         this.context = context;
     }
 
+    //TODO: utilize SensorCallback
     interface SensorCallback {
         Object getSensor(SensorEvent event);
 
