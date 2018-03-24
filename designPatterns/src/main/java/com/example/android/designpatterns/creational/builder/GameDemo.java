@@ -5,4 +5,13 @@ package com.example.android.designpatterns.creational.builder;
  */
 
 public class GameDemo {
+
+    public static void main(String[] args) {
+
+        GameBuilder gameBuilder = new NintendoBuilder();
+        GameDirector gameDirector = new GameDirector(gameBuilder);
+        gameDirector.constructGame();
+        Game game = gameDirector.getGame();
+        System.out.println("meal is: " + game);
+    }
 }

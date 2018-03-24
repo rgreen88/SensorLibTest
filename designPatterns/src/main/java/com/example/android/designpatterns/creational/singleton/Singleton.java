@@ -1,4 +1,4 @@
-package com.example.android.designpatterns.creational;
+package com.example.android.designpatterns.creational.singleton;
 
 public class Singleton {
 

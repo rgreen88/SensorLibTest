@@ -1,4 +1,7 @@
-package com.example.android.designpatterns.creational;
+package com.example.android.designpatterns.creational.AbstractFactory;
+
+import com.example.android.designpatterns.creational.Factory.Factory;
+import com.example.android.designpatterns.creational.Factory.FactoryProduction;
 
 /**
  * Created by rynel on 3/24/2018.

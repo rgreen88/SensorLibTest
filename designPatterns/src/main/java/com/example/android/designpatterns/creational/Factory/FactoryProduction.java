@@ -1,4 +1,4 @@
-package com.example.android.designpatterns.creational;
+package com.example.android.designpatterns.creational.Factory;
 
 /**
  * Created by rynel on 3/24/2018.
