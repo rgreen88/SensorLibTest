@@ -5,4 +5,6 @@ package com.example.android.designpatterns.creational.prototype;
  */
 
 public interface Prototype {
+
+    Prototype doClone();
 }
