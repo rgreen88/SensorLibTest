@@ -6,12 +6,10 @@ package com.example.android.designpatterns.behavioral.template;
 
 public class MainPresenter implements MainContract.Presenter{
 
-    private MainContract.MvpView mView;
-
     //constructor
     MainContract.MvpView view;
     {
-        mView = view;
+        MainContract.MvpView mView = view;
     }
 
     public MainPresenter() {
