@@ -6,7 +6,6 @@ package com.example.android.designpatterns.behavioral.mediator;
 
 public class Mediator {
 
-    private Buyer frenchBuyer;
     private AmericanSeller americanSeller;
     private DollarConverter dollarConverter;
 
@@ -18,7 +17,7 @@ public class Mediator {
     }
 
     public void registerFrenchBuyer(FrenchBuyer frenchBuyer) {
-        this.frenchBuyer = frenchBuyer;
+        Buyer frenchBuyer1 = frenchBuyer;
     }
 
 
@@ -27,7 +26,7 @@ public class Mediator {
     }
 
     public boolean placeBid(float bid, String unitOfCurrency) {
-        float dollarAmount = dollarConverter.convertCurrencyToDollars(bid, unitOfCurrency);
+        float dollarAmount = dollarConverter.convertCurrencyToDollars(bid);
         return americanSeller.isBidAccepted(dollarAmount);
     }
 

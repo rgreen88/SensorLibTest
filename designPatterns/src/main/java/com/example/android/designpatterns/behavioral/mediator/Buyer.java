@@ -7,7 +7,7 @@ package com.example.android.designpatterns.behavioral.mediator;
 public class Buyer {
 
     Mediator mediator;
-    String unitOfCurrency;
+    private String unitOfCurrency;
 
     public Buyer(Mediator mediator, String unitOfCurrency) {
         this.mediator = mediator;

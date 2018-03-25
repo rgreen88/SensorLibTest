@@ -8,7 +8,7 @@ public class RunningGame implements Game{
 
 
     @Override
-    public void Decribe() {
+    public void Describe() {
         System.out.println("The game is running");
     }
 }

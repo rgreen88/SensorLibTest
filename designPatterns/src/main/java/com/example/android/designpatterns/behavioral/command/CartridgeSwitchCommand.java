@@ -16,4 +16,9 @@ public class CartridgeSwitchCommand implements Command {
     public void execute() {
         cartridge.insertCartridge();
     }
+
+    @Override
+    public void remove() {
+        cartridge.removeCartridge();
+    }
 }
