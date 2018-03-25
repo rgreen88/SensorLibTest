@@ -7,4 +7,5 @@ package com.example.android.designpatterns.behavioral.command;
 public interface Command {
 
     void execute();
+    void remove();
 }
